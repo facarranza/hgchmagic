@@ -101,11 +101,11 @@ hgch_treemap_CatCatNum <- function(data, ...){
        # formatter = JS('function () { return this.point.name }')
        formatter = JS('function () {
                                               if (this.point.value > 1000000) {
-                                                return   "<br/>" + this.point.name +   "<br/>" +  "Average: " + Math.floor(this.point.value / 1000000,2) + "M" + " " +  "usd";
+                                                return   "<br/>" + this.point.name +   "<br/>" +  "Average: " + Math.floor(this.point.value / 1000000,2) + "M" + " " +  "USD";
                                               } else if (this.point.value > 1000 &&  this.point.value < 1000000) {
-                                                return    "<br/>" + this.point.name +  "<br/>" + "Average: " + Math.floor(this.point.value/ 1000,2) + "K" + " " + "usd";
+                                                return    "<br/>" + this.point.name +  "<br/>" + "Average: " + Math.floor(this.point.value/ 1000,2) + "K" + " " + "USD";
                                               } else {
-                                                return  "<br/>" + this.point.name + "<br/>" + "Average: " +  this.point.value + " " +  "usd";
+                                                return  "<br/>" + this.point.name + "<br/>" + "Average: " +  this.point.value + " " +  "USD";
                                               }
                                        }'
        )
@@ -117,11 +117,11 @@ hgch_treemap_CatCatNum <- function(data, ...){
           # format='{point.name} - {point.value}',
           formatter = JS('function () {
                                               if (this.point.value > 1000000) {
-                                                return    "<br/>"  + "Average: " + Math.floor(this.point.value / 1000000,2) + "M" + " " +  "usd";
+                                                return    "<br/>"  + "Average: " + Math.floor(this.point.value / 1000000,2) + "M" + " " +  "USD";
                                               } else if (this.point.value > 1000 &&  this.point.value < 1000000) {
-                                                return   "<br/>"  + this.point.name + "Average: " + Math.floor(this.point.value/ 1000,2) + "K" + " " +  "usd";
+                                                return   "<br/>"  + this.point.name + "Average: " + Math.floor(this.point.value/ 1000,2) + "K" + " " +  "USD";
                                               } else {
-                                                return   "<br/>"  + this.point.name + "Average: " +  this.point.value + " " +  "usd";
+                                                return   "<br/>"  + this.point.name + "Average: " +  this.point.value + " " +  "USD";
                                               }
                                        }'
           )
