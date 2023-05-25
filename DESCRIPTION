@@ -21,11 +21,11 @@ Suggests:
 VignetteBuilder: 
     knitr
 Remotes:
-    datasketch/homodatum,
-    datasketch/makeup,
+    datasketch/homodatum@8a5589c30d1b5164ad9cf511f80d730907e4b450,
+    datasketch/makeup@819dfb6fb42356b9c9bbaf4defde112eac44b365,
     datasketch/paletero@944b7957a8ae007e88b3444171a0843330bee54e,
-    datasketch/dsvizprep,
-    datasketch/dsvizopts,
+    datasketch/dsvizprep@6b3aafee457effdaea11c28ce753b498ad606d3c,
+    datasketch/dsvizopts@7d89e577e8c21f3c9600078d035858f5c386ee90,
     dreamRs/d3.format
 License: MIT + file LICENSE
 LazyData: no
